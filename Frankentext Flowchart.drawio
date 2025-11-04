@@ -1,0 +1,67 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.7 Chrome/138.0.7204.251 Electron/37.7.1 Safari/537.36" version="28.2.7">
+  <diagram name="Side-1" id="vkHk-mi8uVsb8sKyjWoc">
+    <mxGraphModel dx="1358" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pRaDj8QgDCEGHbtkfgyi-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9gLNMI_iMat4TcTBdMeJ-1" target="9gLNMI_iMat4TcTBdMeJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-1" value="Start:" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRaDj8QgDCEGHbtkfgyi-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9gLNMI_iMat4TcTBdMeJ-4" target="pRaDj8QgDCEGHbtkfgyi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-4" value="Embed txt file into array" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9gLNMI_iMat4TcTBdMeJ-5" target="9gLNMI_iMat4TcTBdMeJ-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-5" value="Tokenize the text by using delimiters" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9gLNMI_iMat4TcTBdMeJ-7" target="9gLNMI_iMat4TcTBdMeJ-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-7" value="Seed random number generator&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9gLNMI_iMat4TcTBdMeJ-9" target="9gLNMI_iMat4TcTBdMeJ-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-9" value="Generate sentence until we find a word ending with &quot;?&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9gLNMI_iMat4TcTBdMeJ-11" target="9gLNMI_iMat4TcTBdMeJ-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-11" value="Print question sentence" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9gLNMI_iMat4TcTBdMeJ-13" target="9gLNMI_iMat4TcTBdMeJ-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-13" value="Generate sentence until we find a word ending with &quot;!&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9gLNMI_iMat4TcTBdMeJ-15" target="9gLNMI_iMat4TcTBdMeJ-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-15" value="Print excalamation sentence" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9gLNMI_iMat4TcTBdMeJ-17" value="End" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="880" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pRaDj8QgDCEGHbtkfgyi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pRaDj8QgDCEGHbtkfgyi-3" target="9gLNMI_iMat4TcTBdMeJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pRaDj8QgDCEGHbtkfgyi-3" value="Replace non-printable chars with space" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
